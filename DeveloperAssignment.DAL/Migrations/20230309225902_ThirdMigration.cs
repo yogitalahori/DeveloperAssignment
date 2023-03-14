@@ -35,6 +35,23 @@ namespace DeveloperAssignment.DAL.Migrations
                 principalTable: "Category",
                 principalColumn: "CategoryId",
                 onDelete: ReferentialAction.Cascade);
+                
+            migrationBuilder.InsertData(table: "Category", columns: new[] { "CategoryId", "Name" },
+                values: new object[] { 1, "Electronics" });
+            migrationBuilder.InsertData(table: "Category", columns: new[] { "CategoryId", "Name" },
+                values: new object[] { 2, "Kitchen" });
+            migrationBuilder.InsertData(table: "Category", columns: new[] { "CategoryId", "Name" },
+                values: new object[] { 3, "Clothing" });
+            migrationBuilder.InsertData(table: "Category", columns: new[] { "CategoryId", "Name" },
+                values: new object[] { 4, "Automobiles" });
+            migrationBuilder.InsertData(table: "Category", columns: new[] { "CategoryId", "Name" },
+                values: new object[] { 5, "Cameras" });
+            migrationBuilder.InsertData(table: "Category", columns: new[] { "CategoryId", "Name" },
+                values: new object[] { 6, "Jewellery" });
+            migrationBuilder.InsertData(table: "Category", columns: new[] { "CategoryId", "Name" },
+                values: new object[] { 7, "Musical Instruments" });
+            migrationBuilder.InsertData(table: "Category", columns: new[] { "CategoryId", "Name" },
+                values: new object[] { 8, "Sporting Equipment" });
         }
 
         /// <inheritdoc />
